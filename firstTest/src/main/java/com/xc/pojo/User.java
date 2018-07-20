@@ -19,4 +19,12 @@ public class User {
     public void setPsw(String psw) {
         this.psw = psw;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "username='" + username + '\'' +
+                ", psw='" + psw + '\'' +
+                '}';
+    }
 }
